@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/flowpaper"
+    tools:context="com.example.dell.myapplicationflames.MainActivity">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:weightSum="1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="481dp"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:weightSum="1"
+                    android:background="#99bdf2"
+                    android:id="@+id/linearLayout">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.95"
+                        android:background="#99bdf2">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="41dp"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Ndine Apps"
+                            android:textStyle="bold"
+                            android:id="@+id/textView2"
+                            android:background="#99bdf2"
+                            android:layout_weight="0.95"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:typeface="serif" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="41dp"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="-flames-"
+                            android:id="@+id/textView4"
+                            android:layout_weight="0.95"
+                            android:textStyle="italic"
+                            android:textAlignment="center"
+                            android:textColor="#932e2e"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentEnd="true"
+                            android:textSize="17dp"
+                            android:background="#e4ddf0" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="( the creative and inovative me )"
+                            android:id="@+id/textView20"
+                            android:layout_below="@+id/textView2"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:textSize="12dp" />
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageView"
+                        android:src="@drawable/mylovsays"
+                        android:layout_weight="0.09" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="What Do You Think Natually exists between the two of you?"
+                    android:id="@+id/textView"
+                    android:textColor="#fecf6e"
+                    android:textAlignment="center"
+                    android:paddingBottom="10dp"
+                    android:textSize="18.5dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:background="#7ef81b"
+                    android:layout_below="@+id/textView"
+                    android:layout_centerHorizontal="true">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Play"
+                        android:id="@+id/QuizflameButton"
+                        android:background="#915da9df"
+                        android:onClick="onClick"
+                        android:layout_below="@+id/textView"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:textColor="#f8efef" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="&quot;..Play This GAME...To Know what kind of frienship exists naturally between you and your friend...&quot;"
+                    android:id="@+id/textView3"
+                    android:textColor="#f7a516"
+                    android:textStyle="italic"
+                    android:allowUndo="true"
+                    android:textAlignment="center"
+                    android:layout_above="@+id/textView18"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginBottom="31dp"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Ndine Apps (ndine@gmail.com) Copyright2016"
+                    android:textStyle="italic"
+                    android:id="@+id/textView18"
+                    android:background="#badcc1"
+                    android:layout_weight="0.38"
+                    android:layout_gravity="center_horizontal"
+                    android:textAlignment="center"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="15dp" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>
